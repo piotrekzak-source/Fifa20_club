@@ -1,0 +1,182 @@
+body, ul, li, h1, h2, a{
+
+    
+    font-family: arial;
+}
+
+
+header{
+
+    background-color: red;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    padding-top: 1px;
+    z-index: 1;
+    top:0;
+    left: 0;
+   
+}
+header h1{
+
+    color:white;
+    border: 8px solid white;
+    padding:6px 12px;
+    display: inline-block;
+    border-radius: 36px;
+
+}
+.banner{
+    position: relative;
+}
+.banner img{
+    max-width: 100%;
+    margin-top: 120px;
+}
+.banner .welcome{
+    background-color:#cc0066;
+    color:white;
+    padding: 30px;
+    position: absolute;
+    left: 900px;
+    top:35px;
+    bottom: 30px;
+}
+.banner h2{
+    font-size: 74px;
+    
+
+}
+.banner h2 span{
+    font-size: 90px;
+}
+nav{
+    background-color: #f4f4f4;
+    padding:20px;
+    position: sticky;
+    top:120px;
+
+}
+nav ul{
+
+    white-space: nowrap;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+nav li{
+    width: 25%;
+    display:inline-block;
+    font-size:24px;
+}
+nav li a{
+
+    text-decoration: none;
+    color:#4B4B4B;
+}
+nav li a.linki:hover{
+    color:#F63232;
+}
+main{
+    max-width: 100%;
+    width: 1200px;
+    margin:80 px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+article{
+
+    text-align: left;
+    text-align:justify;
+    
+}
+article h2{
+    color:#F63232;
+    font-size: 48px;
+    
+    
+}
+article p{
+
+    line-height: 2em;
+    color:#4B4B4B;
+
+}
+.images{
+    text-align: center;
+    margin:80px 0;
+    white-space: nowrap;
+
+}
+.images li{
+
+    display: inline-block;
+    width: 40%;
+    margin:20px 5%;
+    
+}
+.images li img{
+    max-width: 100%;
+}
+.join{
+
+    background: #f4f4f4;
+    text-align: center;
+    padding: 60px 20px;
+    color:#4B4B4B;
+}
+.join h2{
+    font-size: 36px;
+}
+form input{
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 24px;
+    border-radius: 28px;
+    border: 4px solid white;
+
+}
+footer{
+    background: #F63232;
+    color:white;
+    padding: 10px;
+    text-align:center;
+}
+@media screen and(max-width:1400px){
+
+    .banner .welcome h2{
+
+        font-size: 60px;
+
+}
+    nav li{
+
+        font-size: 18px;
+    }
+}
+
+@media screen and(max-width:960px){
+
+    .banner .welcome h2{
+        font-size: 40px;
+
+}
+    nav li{
+
+        font-size: 18px;
+    }
+}
+@media screen and(max-width:700px){
+
+    .banner .welcome h2{
+        position: relative;
+        text-align: center;
+
+}
+    nav li{
+
+       display: inline-block;
+    }
+}
