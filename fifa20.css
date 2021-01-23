@@ -170,13 +170,21 @@ footer{
 }
 @media screen and(max-width:700px){
 
-    .banner .welcome h2{
+    .banner .welcome{
         position: relative;
         text-align: center;
 
 }
-    nav li{
+    .banner .welcome br{
 
-       display: inline-block;
+        display: none;
+    }
+
+    .banner .welcome h2{
+        font-size: 25px;
+    }
+    .banner .welcome span{
+
+       font-size:1em;
     }
 }
